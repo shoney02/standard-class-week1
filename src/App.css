@@ -1,0 +1,73 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e; /* 어두운 배경색 */
+  color: #fff; /* 텍스트 색상 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 화면 전체 높이 */
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #444; /* 테두리 색상 */
+  border-radius: 4px;
+  background-color: #333; /* 입력 필드 배경색 */
+  color: #fff;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #444; /* 버튼 배경색 */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555; /* 버튼 호버 색상 */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #444; /* 항목 테두리 */
+  border-radius: 4px;
+  background-color: #333; /* 항목 배경 */
+}
+
+li button {
+  background-color: #ff4d4d; /* 삭제 버튼 색상 */
+}
+
+li button:hover {
+  background-color: #ff6666; /* 삭제 버튼 호버 색상 */
+}
